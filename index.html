@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Powered by Skyward</title>
+</head>
+<body>
+    <div><img alt="" src="assets/SR logo final.png" style="width: 73px; height: 80px;">&nbsp;<strong><span style="color:#006400;"><span style="font-size:28px;">Home of the Raiders!</span></span></strong></div>
+    <div id="loginOuterWrap">
+        <div id="loginBoxWrap">
+            <div id="loginHeaderWrap">
+                <div id="loginHeader">
+                    <div id="loginBrading">
+                        <img src="/assets/Skyward logo.gif" alt="Skyward Logo" height="88" width="150">
+                    </div>
+                    <div><h1 id="loginDistrict"><a href="http://www.sripley.k12.in.us/">South Ripley Community School Corporation</a></h1></div>
+                </div>
+            </div>
+            <div id="loginBodyWrap">
+                <div id="loginBody">
+                    <table cellspacing="0" cellpadding="0" role="presentation">
+                        <tbody>
+                            <tr class="ssoShowLP">
+                                <td class="loginLabel"><label class="EditLabel" for="login"><div id="lblLoginID" class="EditLabel">&nbsp;&nbsp;Login ID:</div></label></td>
+                                <td class="loginData"><input type="text" class="EditInput" name="login" id="login" autocomplete="off" tabindex="5" onkeydown="return checkKey(event, this);" style="width: 163px; background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAASCAYAAABSO15qAAAAAXNSR0IArs4c6QAAAPhJREFUOBHlU70KgzAQPlMhEvoQTg6OPoOjT+JWOnRqkUKHgqWP4OQbOPokTk6OTkVULNSLVc62oJmbIdzd95NcuGjX2/3YVI/Ts+t0WLE2ut5xsQ0O+90F6UxFjAI8qNcEGONia08e6MNONYwCS7EQAizLmtGUDEzTBNd1fxsYhjEBnHPQNG3KKTYV34F8ec/zwHEciOMYyrIE3/ehKAqIoggo9inGXKmFXwbyBkmSQJqmUNe15IRhCG3byphitm1/eUzDM4qR0TTNjEixGdAnSi3keS5vSk2UDKqqgizLqB4YzvassiKhGtZ/jDMtLOnHz7TE+yf8BaDZXA509yeBAAAAAElFTkSuQmCC&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%; cursor: pointer;" maxlength="50" aria-label="Login ID" size="28" aria-labelledby="lblLoginID" origvalue="" det="true" autocapitalize="off" autocorrect="off" spellcheck="false"></td>
+                            </tr>
+                            <tr class="ssoShowLP">
+                                <td class="loginLabel"><label class="EditLabel" for="password"><div id="lblPassword" class="EditLabel">&nbsp;&nbsp;Password:</div></label></td>
+                                <td class="loginData"><input type="password" class="EditInput" name="password" id="password" autocomplete="off" tabindex="10" onkeydown="return checkKey(event, this);" style="width: 163px; background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAASCAYAAABSO15qAAAAAXNSR0IArs4c6QAAAPhJREFUOBHlU70KgzAQPlMhEvoQTg6OPoOjT+JWOnRqkUKHgqWP4OQbOPokTk6OTkVULNSLVc62oJmbIdzd95NcuGjX2/3YVI/Ts+t0WLE2ut5xsQ0O+90F6UxFjAI8qNcEGONia08e6MNONYwCS7EQAizLmtGUDEzTBNd1fxsYhjEBnHPQNG3KKTYV34F8ec/zwHEciOMYyrIE3/ehKAqIoggo9inGXKmFXwbyBkmSQJqmUNe15IRhCG3byphitm1/eUzDM4qR0TTNjEixGdAnSi3keS5vSk2UDKqqgizLqB4YzvassiKhGtZ/jDMtLOnHz7TE+yf8BaDZXA509yeBAAAAAElFTkSuQmCC&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%; cursor: auto;" maxlength="100" aria-label="Password" size="28" aria-labelledby="lblPassword" origvalue="" det="true">                                </td>
+                            </tr>
+                            <tr class="ssoShowLP">
+                                <td colspan="2" class="loginButton"><a class="button" id="bLogin" tabindex="15" href="javascript:if (cbs(&quot;bLogin&quot;)) {tryLogin();}" role="button">Sign In</a></td>
+                            </tr>
+                            <tr class="ssoShowLP">
+                                <td colspan="2" class="loginLinks">
+                                    <a tabindex="20" href="javascript:processButton(&quot;&quot;,&quot;skyportforgot.w&quot;);">Forgot your Login/Password?</a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div id="version" tooltip="<b>05</b> = <i>SIF</i> version number<br>&nbsp;&nbsp;&nbsp;&nbsp;.<b>24</b> = The <i>Year</i> the Full Release was distributed (2024)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.<b>02</b> = The <i>Month</i> the Full Release was distributed (February)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.<b>00</b> = Increments with each <i>PMP</i> that is distributed after the Full Release<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.<b>02</b> = Increments for each <i>Addendum</i> after the PMP" tooltip-position="right" tooltip-width="450px">05.24.02.00.02</div>
+                </div>
+            </div>
+        </div>
+        <div id="loginAreaWrap" class="ssoShowLP">
+            <div id="loginArea">
+                <table cellspacing="0" cellpadding="0" role="presentation">
+                    <tbody>
+                        <tr>
+                            <td class="loginLabel"><label class="EditLabel" for="cUserRole"><div id="lblLoginArea" class="EditLabel">&nbsp;&nbsp;Login Area:</div></label></td>
+                            <td class="loginData">
+<select class="EditSelectFixed" name="cUserRole" id="cUserRole" tabindex="15" style="width:168px;" size="1" aria-labelledby="lblLoginArea" origvalue="family/student" det="true"><option value="">All Areas</option><option value="family/student" selected="">Family/Student Access</option><option value="enroll">NEW STUDENT Online Enrollment</option><option value="secured">Secured Access</option></select>                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+<div id="errorPanel" class="noErrors"><noscript><div class='boldMessage'><span>JavaScript</span> Error<small>JavaScript is turned off in your web browser. This site requires JavaScript to be enabled before you can proceed.</small></div></noscript><script type="text/javascript">showBrowserWarning();</script>    </div>
+</div>
+</body>
+</html>
