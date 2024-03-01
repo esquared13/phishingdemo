@@ -1,0 +1,32 @@
+body
+{
+    margin: 0;
+    font-family: arial, sans-serif;
+    font-size: 12px;
+    background: url(https://skyward.sripley.k12.in.us/webspeed/login_bg.png) repeat-x scroll 0 0 #F9F7F9 !important;
+}
+
+.loginBoxWrap /* outside box */
+{
+    padding: 0px;
+    border: 1px solid gray;
+    margin: 0;
+}
+
+.loginHeaderWrap /* white box */
+{
+    background-color: #F9F7F9;
+    padding: 10px;
+    margin: 0;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.loginBodyWrap /* gray box */
+{
+    background-color: rgb(238, 238, 238);
+
+}
+
+
