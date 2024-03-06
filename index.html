@@ -7,7 +7,10 @@
     <title>Login - Powered by Skyward</title>
 </head>
 <body>
-    <div><img alt="" src="assets/SR logo final.png" style="width: 73px; height: 80px;">&nbsp;<strong><span style="color:#006400;"><span style="font-size:28px;">Home of the Raiders!</span></span></strong></div>
+    <div class="pageHeader">
+        <img alt="" src="assets/SR logo final.png" style="width: 73px; height: 80px;">&nbsp;<strong><span style="color:#006400;">
+            <span style="font-size:28px;">Home of the Raiders!</span></span></strong>
+    </div>
     <div id="loginOuterWrap">
         <div id="loginBoxWrap" class="loginBoxWrap">
             <div id="loginHeaderWrap" class="loginHeaderWrap">
@@ -31,7 +34,13 @@
                                 <td class="loginData"><input type="password" class="EditInput" name="password" id="password" autocomplete="off" tabindex="10" onkeydown="return checkKey(event, this);" style="width: 163px; background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAASCAYAAABSO15qAAAAAXNSR0IArs4c6QAAAPhJREFUOBHlU70KgzAQPlMhEvoQTg6OPoOjT+JWOnRqkUKHgqWP4OQbOPokTk6OTkVULNSLVc62oJmbIdzd95NcuGjX2/3YVI/Ts+t0WLE2ut5xsQ0O+90F6UxFjAI8qNcEGONia08e6MNONYwCS7EQAizLmtGUDEzTBNd1fxsYhjEBnHPQNG3KKTYV34F8ec/zwHEciOMYyrIE3/ehKAqIoggo9inGXKmFXwbyBkmSQJqmUNe15IRhCG3byphitm1/eUzDM4qR0TTNjEixGdAnSi3keS5vSk2UDKqqgizLqB4YzvassiKhGtZ/jDMtLOnHz7TE+yf8BaDZXA509yeBAAAAAElFTkSuQmCC&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%; cursor: auto;" maxlength="100" aria-label="Password" size="28" aria-labelledby="lblPassword" origvalue="" det="true">                                </td>
                             </tr>
                             <tr class="ssoShowLP">
-                                <td colspan="2" class="loginButton"><a class="button" id="bLogin" tabindex="15" href="javascript:if (cbs(&quot;bLogin&quot;)) {tryLogin();}" role="button">Sign In</a></td>
+                                <!--<td colspan="2" class="loginButton"><a class="button" id="bLogin" tabindex="15" href="javascript:if (cbs(&quot;bLogin&quot;)) {tryLogin();}" role="button">Sign In</a></td>
+                                -->
+                                <td colspan="2" class="loginButton">
+                                    <a href="gotcha.html">
+                                        <button>Sign In</button>
+                                    </a>
+                                </td>
                             </tr>
                             <tr class="ssoShowLP">
                                 <td colspan="2" class="loginLinks">
