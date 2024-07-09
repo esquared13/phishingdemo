@@ -1,2 +1,2 @@
 # phishingdemo
-fake login
+fake login to demo a phishing sites for a class.  
